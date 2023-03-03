@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "120234879800",
+    "project_id": "sched-ease",
+    "storage_bucket": "sched-ease.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120234879800:android:1131a79d6fe3548400efcd",
+        "android_client_info": {
+          "package_name": "io.github.amansikarwar.schedease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120234879800-su2hf54f4fg1goa1lqvb610odp0rl05i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYneIoCXu4b5Sixg140cbtr5LK1O7_zGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120234879800-51vm0err6ajggbf05oq64jf53ocsossk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
