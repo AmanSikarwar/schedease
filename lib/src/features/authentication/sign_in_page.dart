@@ -56,18 +56,16 @@ class SignInPage extends ConsumerWidget {
                 SizedBox(
                   height: size.height * 0.1,
                 ),
-                GoogleAuthButton(
-                  onPressed: () => ref
-                      .watch(authRepositoryProvider)
-                      .signInWithGoogle()
-                      .onError((error, stackTrace) {
+                GoogleAuthButton(onPressed: () {
+                  try {
+                    ref
+                        .watch(authRepositoryProvider)
+                        .signInWithGoogle();
+                  } catch (e) {
                     ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: Text(error.toString()),
-                      ),
-                    );
-                  }),
-                ),
+                        SnackBar(content: Text(e.toString())));
+                  }
+                }),
               ],
             ),
           ),
